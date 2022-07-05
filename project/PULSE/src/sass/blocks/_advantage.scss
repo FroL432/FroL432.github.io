@@ -24,6 +24,8 @@
         }
         &_animated {
             animation: heartbeat 1.5s ease infinite;
+            animation: cupbeat 1.5s ease infinite;
+            animation: shoebeat 1.5s ease infinite;
             &:hover {
                 animation-play-state: paused;
             }

@@ -3,7 +3,29 @@
         transform: scale(1);
     }
     50% {
-        transform: scale(1.4);
+        transform: scale(1.25);
+    }
+    to { 
+        transform: scale(1);
+    }
+}
+@keyframes cupbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    to { 
+        transform: scale(1);
+    }
+}
+@keyframes shoebeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
     }
     to { 
         transform: scale(1);

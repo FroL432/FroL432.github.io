@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/bootstrap-reboot.css">
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet"  href="./css/slick.css"/>
+  <link rel="stylesheet"  href="./css/animate.css"/>
   <link rel="stylesheet" href="./css/style.min.css">
   <title>Pulse</title>
 </head>
@@ -62,7 +63,7 @@
       <div class="advantage__wrapper">
         <div class="advantage__block">
           <div class="advantage__icon">
-            <img src="./icons/cup.png" alt="cup">
+            <img src="./icons/cup.png" alt="cup" class="advantage__icon_animated">
             Делимся опытом
           </div>
           <div class="advantage__descr">
@@ -82,7 +83,7 @@
         </div>
         <div class="advantage__block">
           <div class="advantage__icon">
-            <img src="./icons/shoe.png" alt="shoe">
+            <img src="./icons/shoe.png" alt="shoe" class="advantage__icon_animated">
             Учим бегать
         </div>
         <div class="advantage__descr">
@@ -110,7 +111,7 @@
       </div>
   </section> 
 
-  <section class="carousel">
+  <div class="carousel">
     <div class="container">
       <div class="carousel__inner">       
         <div><img src="./img/slide_1.jpg" alt="slide_1" class="carousel__slide"></div>
@@ -118,7 +119,7 @@
         <div><img src="./img/slide_3.jpg" alt="slide_3" class="carousel__slide"></div>
       </div>
     </div>
-  </section>
+  </div>
 
   <section class="catalog">
     <div class="container">
@@ -367,9 +368,9 @@
     <div class="container">
       <h2 class="title">отзывы клиентов</h2>
       <ul class="comments__content">
-        <li class="comments__list">
+        <li class="comments__list animate__animated animate__fadeInUp wow" data-wow-duration='2s' data-wow-delay='1s'>
           <img src="./img/comment_photo_1.jpg" alt="comment_photo" class="comments__photo">
-          <div class="comments__wrapper">
+          <div class="comments__wrapper " >
             <div class="comments__header">Ирина Иванченко </div>
             <div class="comments__subheader">2 полумарафона</div>
             <div class="comments__descr">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же. <br> <br>Новые цели - новый гаджет! <br><br>
@@ -378,9 +379,9 @@
         </li>
 
 
-        <li class="comments__list">
+        <li class="comments__list animate__animated animate__fadeInUp wow" data-wow-duration='2s' data-wow-delay='1s'>
           <img src="./img/comment_photo_2.jpg" alt="comment_photo" class="comments__photo">
-          <div class="comments__wrapper">
+          <div class="comments__wrapper ">
             <div class="comments__header">Иван Сёмочкин</div>
             <div class="comments__subheader">1 полумарафон</div>
             <div class="comments__descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд. <br><br> С ними подготовился к своему первому полумарафону! Спасибо!!!! </div>
@@ -388,9 +389,9 @@
         </li>
 
 
-        <li class="comments__list">
+        <li class="comments__list animate__animated animate__fadeInUp wow" data-wow-duration='2s' data-wow-delay='1s'>
           <img src="./img/comment_photo_3.jpg" alt="comment_photo" class="comments__photo">
-          <div class="comments__wrapper">
+          <div class="comments__wrapper ">
             <div class="comments__header">Юлия Дашкина</div>
             <div class="comments__subheader">2 полумарафона</div>
             <div class="comments__descr">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать. <br><br>Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться! <br><br>Спасибо!!!</div>
@@ -401,7 +402,7 @@
   </section>
 
   <footer class="footer">
-    <iframe class="iflame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.373147426373!2d37.64533303041078!3d55.769390827337226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sby!4v1656761017096!5m2!1sru!2sby" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe class="iflame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.373147426373!2d37.64533303041078!3d55.769390827337226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sby!4v1656761017096!5m2!1sru!2sby"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="footer__info"> 
       <address class="footer__addr">Москва, Мясницкий проезд, д.3с1</address>
       <a href="tel:84999228974"  class="footer__phone">8(499)922-89-74</a>
@@ -450,11 +451,12 @@
   </a>
   
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.maskedinput.min.js" ></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/script.js"> </script>
 
 
