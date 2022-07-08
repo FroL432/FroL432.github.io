@@ -1,0 +1,50 @@
+.aboutme {
+    height: 840px;
+    padding: 120px 0;
+    &__title {
+        width: 445px;
+        margin-top: 6px;
+    }
+    &__subtitle {
+        position: relative;
+        @include before_circle;
+        padding-left: 10px;
+        z-index: 2;
+        &_skills {
+            padding-left: 55px;
+        }
+    }
+    &__divider {
+        width: 60px;
+        height: 2px;
+        border: 1px solid $main-color;  
+    }
+    &__skills {
+        width: 260px;
+        min-height: 120px;
+    }
+    &__descr {
+        height: 125px;
+        width: 570px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        &_skills {
+            padding-left: 55px;
+            margin-top: -20px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    &__icons {
+        display: block;
+        position: relative;
+        width: 25px;
+        height: 25px;
+        top: -15px;
+        left: 15px;
+        z-index: 3;
+    }
+}
