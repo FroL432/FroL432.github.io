@@ -17,6 +17,12 @@
     
 }
 
+.divider {
+    width: 60px;
+    height: 2px;
+    border: 1px solid $main-color;  
+    margin-top: 25px;
+}
 
 @import 'blocks/promo';
 @import 'blocks/title';
