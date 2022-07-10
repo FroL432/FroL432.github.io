@@ -21,7 +21,7 @@
     width: 60px;
     height: 2px;
     border: 1px solid $main-color;  
-    margin-top: 25px;
+margin: 25px auto 0;
 }
 
 @import 'blocks/promo';
@@ -30,3 +30,4 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/aboutme';
+@import 'blocks/resume';
