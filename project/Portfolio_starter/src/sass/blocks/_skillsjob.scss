@@ -1,0 +1,85 @@
+.skillsjob {
+    padding: 120px 0;
+    &__title {
+        text-align: center;
+    }
+    &__subtitle {
+        text-align: center;
+        position: relative;
+        @include before_circle;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__skills {
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        grid-template-rows: repeat(2, minmax(270px, auto));
+        gap: 13px  13px;
+        grid-auto-rows: 270px;
+    }
+    &__item {
+        padding: 30px;
+        border: 1px solid #000;
+        &-head {
+            padding-top: 20px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &-text {
+            padding-top: 15px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        &-icon {
+            height: 65px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__progress {
+        padding: 120px 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(2, 70px);
+        gap: 45px 30px;
+        &_items {
+            .procent {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+            &_head {
+                position: relative;
+                @include before_circle;
+                &:before {
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                &-procent {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+            &_band {
+                position: absolute;
+                width: 350px;
+                height: 14px;
+                background: #E8E4DE;
+                border-radius: 4px;
+                &-orange {
+                    position: relative;
+                    width: 75%;
+                    height: 14px;
+                    border-radius: 4px;
+                    background: $main-color;
+                } 
+            }
+        }
+    }
+}
