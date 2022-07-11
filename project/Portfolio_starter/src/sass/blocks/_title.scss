@@ -22,4 +22,18 @@
         font-size: 48px;
     }
     
+    &__section {
+        &_title {
+            text-align: center;
+        }
+        &_subtitle {
+            text-align: center;
+            position: relative;
+            @include before_circle;
+            &:before {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
 }

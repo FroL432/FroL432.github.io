@@ -1,17 +1,5 @@
 .skillsjob {
-    padding: 120px 0;
-    &__title {
-        text-align: center;
-    }
-    &__subtitle {
-        text-align: center;
-        position: relative;
-        @include before_circle;
-        &:before {
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
+    padding-top: 120px;
     &__skills {
         padding-top: 60px;
         display: grid;
