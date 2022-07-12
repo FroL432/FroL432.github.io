@@ -21,16 +21,17 @@
             background-color: purple;
         }
     }
-    &__item {
-        img {
-            width: 100%;
-            transition: all .6s;
-            &:hover {
-                filter: grayscale(100%);
-                transform: scale(1.15) ;
-                box-shadow: -3px -3px 10px rgb(0, 0, 0);
-                // transition: all .6s;
-            }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .6s;
+        &:hover {
+            filter: grayscale(100%);
+            transform: scale(1.15) ;
+            box-shadow: -3px -3px 10px rgb(0, 0, 0);
+            // transition: all .6s;
         }
     }
 
