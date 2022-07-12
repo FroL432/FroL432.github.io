@@ -16,7 +16,23 @@
         &__skills {
             column-gap: 20px;
             grid-template-columns: repeat(2,250px);
-
+        }
+    }
+    .resume {
+        &__wrapper {
+            padding: 40px 20px 0;
+            grid-template-columns: repeat(2,400px);
+            column-gap: 50px;       
+        }
+    }
+    .skillsjob {
+        &__skills {
+            grid-template-columns: repeat(3,270px);
+            justify-content: center;
+        }
+        &__progress {
+            grid-template-columns: repeat(2,350px);
+            justify-content: center;
         }
     }
 }
@@ -39,6 +55,26 @@
             grid-template-columns: 380px;
             grid-template-rows: repeat(2,minmax(100px,auto));
             grid-auto-rows: minmax(100px,auto);
+        }
+    }
+    .resume {
+        &__wrapper {
+            padding: 40px 10px 0;
+            grid-template-columns: repeat(2,340px);
+            column-gap: 20px;       
+        }
+    }
+    .skillsjob {
+        &__skills {
+            grid-template-columns: repeat(2,270px);
+            justify-content: center;
+        }
+        &__progress {
+            grid-template-columns: repeat(2,300px);
+            justify-content: center;
+        }
+        &__progress_items_band {
+            width: 300px;
         }
     }
 
@@ -75,6 +111,23 @@
             row-gap: 20px ;
         }
     }
+    .resume {
+        &__wrapper {
+            padding: 40px 10px 0;
+            grid-template-columns: 1fr;
+        }
+        .divider {
+            margin-top: 15px;
+        }
+    }
+    .skillsjob {
+        &__skills {
+            grid-template-columns: 270px;
+        }
+        &__progress {
+            grid-template-columns: 300px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -89,6 +142,7 @@
         }
         &_fz36 {
             font-size: 24px;
+            
         }
     }
     .hamburger {
@@ -119,6 +173,31 @@
         }
         &__descr-skill {
             padding-right: 25px;
+        }
+    }
+    .skillsjob {
+        .title {
+            &_fz36 {
+                font-size: 24px;
+                line-height: 36px;
+                margin-top: 20px;                
+            }
+        }
+        .divider {
+            margin-top: 15px;
+        }
+
+        &__skills {
+            padding-top: 20px;
+            grid-template-columns: 270px;
+        }
+        &__progress {
+            padding-top: 40px;
+            grid-template-columns: 280px;
+            gap: 40px 30px;
+        }
+        &__progress_items_band {
+            width: 280px;
         }
     }
 
