@@ -26,10 +26,10 @@
         }
     }
     .skillsjob {
-        &__skills {
-            grid-template-columns: repeat(3,270px);
-            justify-content: center;
-        }
+        // &__skills {
+        //     grid-template-columns: repeat(3,270px);
+        //     justify-content: center;
+        // }
         &__progress {
             grid-template-columns: repeat(2,350px);
             justify-content: center;
@@ -65,10 +65,10 @@
         }
     }
     .skillsjob {
-        &__skills {
-            grid-template-columns: repeat(2,270px);
-            justify-content: center;
-        }
+        // &__skills {
+        //     grid-template-columns: repeat(2,270px);
+        //     justify-content: center;
+        // }
         &__progress {
             grid-template-columns: repeat(2,300px);
             justify-content: center;
@@ -121,9 +121,9 @@
         }
     }
     .skillsjob {
-        &__skills {
-            grid-template-columns: 270px;
-        }
+        // &__skills {
+        //     grid-template-columns: 270px;
+        // }
         &__progress {
             grid-template-columns: 300px;
         }
@@ -187,10 +187,10 @@
         .divider {
             margin-top: 15px;
         }
-        &__skills {
-            padding-top: 20px;
-            grid-template-columns: 270px;
-        }
+        // &__skills {
+        //     padding-top: 20px;
+        //     grid-template-columns: 270px;
+        // }
         &__progress {
             padding-top: 40px;
             grid-template-columns: 280px;
