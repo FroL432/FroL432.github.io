@@ -163,6 +163,7 @@
     .aboutme {
         &__wrapper {
             grid-template: 340px auto auto / 300px;
+            justify-content: center;
         }
         &__skills {
             grid-template-columns: 1fr;
@@ -186,7 +187,6 @@
         .divider {
             margin-top: 15px;
         }
-
         &__skills {
             padding-top: 20px;
             grid-template-columns: 270px;
@@ -199,7 +199,14 @@
         &__progress_items_band {
             width: 280px;
         }
+        &__item {
+            &-icon {
+                justify-content: center;
+            }
+            &-head, &-text {
+                text-align: center;
+            }
+        }
     }
-
 }
 

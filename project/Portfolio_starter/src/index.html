@@ -130,7 +130,35 @@
             <div class="aboutme__wrapper">
 
                 <div class="aboutme__photo">
-                    <img src="./img/main_photo.jpg" alt="main_photo">
+                    <!-- мой вариант -->
+                    <!-- <img srcset="./img/main_photo-min.jpg 300w,
+                                    ./img/main_photo.jpg 400w"
+                        sizes="(max-width: 576px) 300px,
+                                (min-width: 577px) 400px"
+                    src="./img/main_photo.jpg" alt="main_photo"> -->
+
+                    <!-- вариант из тех.описания. не работает -->
+
+                    <!-- <img srcset="elva-fairy-320w.jpg 320w,
+                    elva-fairy-480w.jpg 480w,
+                    elva-fairy-800w.jpg 800w"
+                    sizes="(max-width: 320px) 280px,
+                    (max-width: 480px) 440px,
+                    800px"
+                    src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> -->
+
+                    <!-- перебил код ТО. нерабает  -->
+
+                    <!-- <img srcset="./img/main_photo-min.jpg 300w,
+                    ./img/main_photo.jpg 400w"
+                    sizes="(max-width: 576px) 300px,
+                    (min-width: 577px) 400px"
+                    src="./img/main_photo.jpg" alt="main_photo"> -->
+                    <picture>
+                        <source media="(max-width: 576px)" src="img/main_photo-min.jpg">
+                        <source media="(min-width: 577px)" src="img/main_photo.jpg">
+                        <img src="./img/main_photo.jpg" alt="main_photo">
+                    </picture>
                 </div>
 
                 <div class="aboutme__description">
