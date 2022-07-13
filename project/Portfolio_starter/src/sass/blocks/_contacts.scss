@@ -4,7 +4,7 @@
         padding: 0 30px 0 50px;
         display: grid;
         grid-template-columns: 400px 585px;
-        // column-gap: 70px;
+        column-gap: 70px;
         justify-content: space-between;
     }
     &__photo {
@@ -72,12 +72,14 @@
         display: grid;
         grid-template-columns: repeat(2, auto);
         column-gap: 35px;
+        // justify-content: center;
     }
     &__policy {
         font-size: 12px;
         line-height: 18px;
         display: flex;
         align-items: center;
+        // justify-content: center;
         input {
             margin-right: 10px;
         }
