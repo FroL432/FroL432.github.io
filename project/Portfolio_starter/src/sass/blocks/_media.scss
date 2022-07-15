@@ -114,6 +114,9 @@
         }
     }
     .contacts {
+        .title__section_title {
+            width: 100%;
+        }
         &__wrapper {
             grid-template-columns: 300px 300px;
             column-gap: 40px;
